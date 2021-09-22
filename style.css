@@ -132,6 +132,7 @@ border-top:1px solid #000000;}
 
 
 #Form{
+  align-self: center;
   align-content: center;
   align-items: center;
   padding:20px;
