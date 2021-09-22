@@ -58,27 +58,31 @@
 
 <div id="Form">
  <form align="center">
-  <form action="https://interfacememory.netlify.app/" method="get" data-netlify="true">
-   <p>Full Name:
-    <input type="text" name="Full-Name" size="15" maxlength="30" />
+  <form action="https://interfacememory.netlify.app/" method="post" data-netlify="true">
+   <p><label>Full Name:
+    <input type="text" name="Full-Name" size="15" maxlength="30" /></label>
     </p>
 
 
-     <p>Email:
-      <input type="text" name="email" size="17" maxlength="30" />
+     <p><label>Email:
+      <input type="text" name="email" size="17" maxlength="30" /></label>
       </p>
 
-      <p>Age:</p>
+    <p><label>Age:
       <select name="Age">
       <option value="15-16">15-16</option>
       <option value="17-20">17-20</option>
       <option value="20+">20+</option>
-      </select>
+    </select></label>
+    </p>
 
-    <p>Answers:
-    <textarea name="comments" cols="20" rows="4"></textarea>
+    <p><label>Answers:
+    <textarea name="comments" cols="20" rows="4"></textarea><label>
+  </p>
 
-  <p>Submit:</p> <input type="submit" name="submit" value="Submit"/>
+  <p>
+    <button type="submit">Submit</button>
+  </p>
 
  </form>
 </div>
