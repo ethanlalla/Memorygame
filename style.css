@@ -1,7 +1,13 @@
 h1{text-align: center;
   font-family: "Roboto" ,sans-serif;
   color: red;
-  font-style:normal;
+  background-color:black;
+
+}
+
+
+
+#game-wrapper{
 
 }
 
@@ -14,11 +20,100 @@ body {
 
 td {
 background-color: #000000;
-padding: 0px;
-border: 1px solid #000000;}
+padding: 1px;
+border-top:1px solid #000000;}
 
-table.one {
-border-spacing: 5px 5px;}
-table.two {
-  border-collapse: collapse;
+
+#tile1{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile1:hover{
+  background-image: url("images/tile%201.png");
+}
+
+#tile2{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile2:hover{
+  background-image: url("images/tile%202.png");
+}
+
+#tile3{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile3:hover{
+  background-image: url("images/tile%203.png");
+}
+
+
+#tile4{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile4:hover{
+  background-image: url("images/tile%205.png");
+}
+
+#tile5{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile5:hover{
+  background-image: url("images/tile%201.png");
+}
+
+#tile6{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile6:hover{
+  background-image: url("images/tile%207.png");
+}
+
+#tile7{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile7:hover{
+  background-image: url("images/tile%207.png");
+}
+
+#tile8{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile8:hover{
+  background-image: url("images/tile%204.png");
+
+}
+
+#tile9{
+  background-image: url("images/Hover.jpg");
+  height:200px;
+  width:200px;
+}
+
+#tile9:hover{
+  background-image: url("images/tile%202.png");
+  width:200px;
+  height:200px;
 }
